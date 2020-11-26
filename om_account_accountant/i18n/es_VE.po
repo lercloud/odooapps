@@ -1,0 +1,96 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* om_account_accountant
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-19 21:47+0000\n"
+"PO-Revision-Date: 2020-11-19 17:54-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_VE\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: om_account_accountant
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Fiscal Year</span>"
+msgstr "<span class=\"o_form_label\">Año fiscal</span>"
+
+#. module: om_account_accountant
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.res_config_settings_view_form
+msgid "Accounting"
+msgstr "Contabilidad"
+
+#. module: om_account_accountant
+#: model:ir.model,name:om_account_accountant.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de Configuración"
+
+#. module: om_account_accountant
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.res_config_settings_view_form
+msgid "Define fiscal years of more or less than one year"
+msgstr "Definir años fiscales de más o menos de un año"
+
+#. module: om_account_accountant
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.res_config_settings_view_form
+msgid "Fiscal Years"
+msgstr "Años fiscales"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,field_description:om_account_accountant.field_res_config_settings__fiscalyear_last_day
+msgid "Fiscalyear Last Day"
+msgstr "Último día año fiscal"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,field_description:om_account_accountant.field_res_config_settings__fiscalyear_last_month
+msgid "Fiscalyear Last Month"
+msgstr "Último mes de año fiscal"
+
+#. module: om_account_accountant
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.res_config_settings_view_form
+msgid "Last Day"
+msgstr "Último día"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,field_description:om_account_accountant.field_res_config_settings__fiscalyear_lock_date
+msgid "Lock Date"
+msgstr "Fecha establecida"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,field_description:om_account_accountant.field_res_config_settings__period_lock_date
+msgid "Lock Date for Non-Advisers"
+msgstr "Fecha establecida para no asesores"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,help:om_account_accountant.field_res_config_settings__fiscalyear_lock_date
+msgid ""
+"No users, including Advisers, can edit accounts prior to and inclusive of "
+"this date. Use it for fiscal year locking for example."
+msgstr ""
+"Ningún usuario, incluyendo Asesores, pueden editar cuentas antes de y en "
+"esta fecha. Utilícela, por ejemplo, para bloquear un año fiscal."
+
+#. module: om_account_accountant
+#: code:addons/om_account_accountant/wizard/change_lock_date.py:0
+#, python-format
+msgid "Only Billing Administrators are allowed to change lock dates!"
+msgstr ""
+"¡Solo los administradores de facturación pueden cambiar las fechas de "
+"bloqueo!"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,help:om_account_accountant.field_res_config_settings__period_lock_date
+msgid ""
+"Only users with the 'Adviser' role can edit accounts prior to and inclusive "
+"of this date. Use it for period locking inside an open fiscal year, for "
+"example."
+msgstr ""
+"Sólo los usuarios con el rol 'Asesor' pueden editar cuentas antes de y en "
+"esta fecha. Utilícelo para bloquear un período dentro de un año fiscal "
+"abierto, por ejemplo."
